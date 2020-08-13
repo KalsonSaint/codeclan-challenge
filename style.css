@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 *,
 *::before,
 *::after {
@@ -9,7 +10,10 @@ body {
   width: 1440px;
   height: 1084px;
   overflow: hidden;
-  background: url('./Rectangle\ 55.png');
+  background: url("./Rectangle\ 55.png");
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
 }
 .container {
   position: absolute;
@@ -43,13 +47,41 @@ body {
   left: 96px;
   top: 20px;
 }
-.nav ul li{
+.nav ul li {
   display: inline-block;
   position: relative;
   left: 740px;
   top: 38px;
 }
-.nav ul li a{
+.nav ul li a {
   text-decoration: none;
   padding: 0px 40px;
+  color: #000;
+}
+.nav ul li a:hover {
+  color: #0045ff;
+}
+.nav ul li a.btn {
+  padding: 20px 20px;
+  background: #0045ff;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: white;
+}
+.nav ul li button a {
+  color: #ffffff;
+  font-weight: 700;
+}
+.header-text {
+  position: absolute;
+  width: 705px;
+  height: 152px;
+  left: 400px;
+  top: 200px;
+  font-style: normal;
+  font-weight: 900;
+  text-align: center;
+  font-size: 30px;
+  color: #152C5B;
 }
