@@ -8,7 +8,7 @@
 }
 body {
   width: 1440px;
-  height: 1084px;
+  height: 100vh;
   overflow: hidden;
   background: url("./Rectangle\ 55.png");
   font-family: "PT Sans", sans-serif;
@@ -18,7 +18,7 @@ body {
 .container {
   position: absolute;
   width: 100%;
-  height: 980;
+  height: 100vh;
   left: 0;
   top: 0;
   background: linear-gradient(
@@ -30,8 +30,9 @@ body {
 .shade-1 {
   position: absolute;
   width: 1100px;
-  left: 744px;
-  top: -186px;
+  height: 1100px;
+  left: 900px;
+  top: -50px;
 }
 .shade-2 {
   position: absolute;
@@ -75,13 +76,15 @@ body {
 }
 .header-text {
   position: absolute;
-  width: 705px;
-  height: 152px;
-  left: 400px;
-  top: 200px;
-  font-style: normal;
-  font-weight: 900;
-  text-align: center;
-  font-size: 30px;
-  color: #152C5B;
+  width: 600px;
+  height: 130px;
+  left: 500px;
+  top: 150px;
+}
+.sub-heading {
+  position: absolute;
+  width: 400px;
+  height: 25px;
+  left: 620px;
+  top: 320px;
 }
